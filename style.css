@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.background {
+    height: 100vh;
+}
+
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.odin-logo span {
+    font-family: 'Skranji', cursive;
+    font-size: 4em;
+    padding-top: 10px;
+}
+
+.odin-logo {
+    position: absolute;
+    bottom: 40em;
+    width: 37.75%;
+    background-color: rgba(0, 0, 0, 0.45);
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding: 1em;
+    color: white;
+
+}
+
+.sign-up-form-right-side {
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    width: 100vw;
+    height: 100vh;
+}
+
+.header {
+    text-align: start;
+    font-weight: bold;
+    font-size: 1.7em;
+    text-overflow: ellipsis;
+    max-width: 60ch;
+    padding: 2em;
+    margin: 2em 0.5em 1em 0.5em
+}
+
+.span-under-paragraph {
+    margin: 1em 0em 0em 0em;
+}
+
+.filling-informations {
+    padding: 2.5em 3em 2em 4em;
+    margin: 1em 0em 1em 0em;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+
+.r1,
+.r2,
+.r3 {
+    display: flex;
+    flex-direction: row;
+    margin: 1em;
+    justify-content: space-between;
+    width: 50%;
+    gap: 5em;
+
+}
+
+.filling-informations input:focus {
+    outline: none !important;
+    border-color: blue;
+    box-shadow: blue;
+}
+
+
+.filling-informations input {
+    font-size: 16px;
+    padding: 8px;
+    width: 330px;
+}
+
+.filling-informations label {
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.filling-informations p {
+    font-weight: bolder;
+    font-size: 2em;
+    padding: 1em 1.1em 1em 0.5em;
+}
+
+.last-div button {
+    padding: 0.7em 2em 0.7em 2em;
+    background-color: #596D48;
+    border-style: none;
+    border-radius: 6px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    margin: 1.5em 0em 0em 4.29em;
+}
+
+.last-div button:hover {
+    cursor: pointer;
+    background-color: #596d48a7;
+}
+
+.last-div p {
+    padding: 1em 0em 1em 1em;
+    margin-left: 3.9em;
+}
+
+footer {
+    margin-top: -1em;
+    background-color: #596D48;
+}
+
+footer>p {
+    text-align: center;
+    padding: 30px 15px 20px 15px;
+}
